@@ -1,0 +1,41 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  background-color: navy;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: midnightblue;
+  background-color: green;
+  border-top: 0;
+  margin: auto;
+}
+
+body {
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/N13e7awhgiljgescq/videoblocks-passenger-airplane-flying-in-blue-sky-with-white-clouds_ram7lgcp3l_thumbnail-full14.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.scoreboard {
+  height: 50px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: white;
+}
+.options {
+  display: grid;
+  max-width: 700px;
+  height: 240px;
+  margin: 0 auto;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  background-color: yellow;
+}
+p {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
