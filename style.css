@@ -3,6 +3,8 @@ h1 {
   text-align: center;
   color: white;
   background-color: navy;
+  padding: 10px;
+  margin: 10px;
 }
 h2 {
   font-size: 40px;
@@ -19,12 +21,6 @@ body {
   background-size: 100%;
 }
 
-.scoreboard {
-  height: 50px;
-  width: 100px;
-  margin: 0 auto;
-  background-color: white;
-}
 .options {
   display: grid;
   max-width: 700px;
@@ -32,10 +28,21 @@ body {
   margin: 0 auto;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  background-color: yellow;
+  border: 2px solid gray;
 }
 p {
   font-size: 40px;
   text-align: center;
   color: white;
+}
+.cells {
+  border: 2px solid gray;
+  background-color: yellow;
+}
+.nextpage {
+  text-align: center;
+  font-size: 30px;
+  width: 60px;
+  height: 90px;
+  color: red;
 }
