@@ -22,13 +22,10 @@ body {
 }
 
 .options {
-  display: grid;
-  max-width: 700px;
-  height: 240px;
+  max-width: 200px;
   margin: 0 auto;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  border: 2px solid gray;
+  margin: 20px;
+  flex-flow: column;
 }
 p {
   font-size: 40px;
@@ -37,12 +34,41 @@ p {
 }
 .cells {
   border: 2px solid gray;
-  background-color: yellow;
+  background-color: yellowgreen;
+  margin: 10px;
+  font-size: 40px;
+  flex-flow: columns;
 }
 .nextpage {
   text-align: center;
   font-size: 30px;
   width: 60px;
-  height: 90px;
+  height: 60px;
+  color: red;
+  margin-top: 0px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+p {
+  font-size: 20px;
+  height: 25px;
+  text-align: center;
+  margin: 5px;
+}
+footer {
+  margin-bottom: 0px;
+  height: 20px;
+  text-align: center;
+  padding: 0px;
+  margin-top: 6px;
+}
+.result {
+  text-align: right;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
   color: red;
 }
