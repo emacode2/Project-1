@@ -20,27 +20,13 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.container {
-  display: grid;
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
-}
-.cells {
-  border: 2px solid gray;
-  flex-flow: row;
-}
-
-img {
-  width: 200px;
-  height: 200px;
-  align-items: center;
-}
 p {
-  font-size: 30px;
-  height: 25px;
+  font-size: 50px;
+  height: px;
   text-align: center;
-  margin-top: 150;
+  margin: 30px;
   color: navy;
+}
+button {
   text-align: center;
 }

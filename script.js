@@ -1,22 +1,8 @@
 // make an array for questions
 // add an object to array for each question
 // add questionText, choices, correctChoice
-questions[
-//   ({
-//     quest: "what was the most visited country in 2018?",
-//     choices: ["China", "Italy", "USA", "France"],
-//     correctChoice: "France",
-//     correctDiv: ".cellsd"
-//   },
-//   {
-//     quest: "What was the most visited city in 2018?",
-//     choices: ["Dubai", "Paris", "BangKok", "New York"],
-//     correctChoice: "Bangkok",
-//     correctDiv: "cellsc"
-//   })
-// ];
-// */
 
+/*
 questions = [
     {
         quest: "Where is this landmark located?",
@@ -82,22 +68,48 @@ questions = [
 
 //var firstquestion = document.querySelector(".cell");
 //var container = document.querySelector(".container");
+*/
+/*questions = [
+  {
+    quest: "what was the most visited country in 2018?",
+    choices: ["China", "Italy", "USA", "France"],
+    correctChoice: "France",
+    correctDiv: ".cellsd"
+  },
+  {
+    quest: "What was the most visited city in 2018?",
+    choices: ["Dubai", "Paris", "BangKok", "New York"],
+    correctChoice: "Bangkok",
+    correctDiv: "cellsc"
+  },
+  {
+    quest: "Pashto is an official language spoken in which country?",
+    choices: ["laos", "Afghanistan", "Cambodia", "India"],
+    correctChoice: "Afghanistan",
+    correctDiv: "cellsb"
+  }
+];
 
-let getquestion = document.querySelector(".prompts");
-let images = document.querySelector(".imagequest");
-
-getquestion.innerHTML = questions[0].quest;
-images.src = "questions[0].image";
-// document.body.style.backgroundImage = "url('img_tree.png')"
-
+/*let getquestion = document.querySelector(".prompts");
+getquestion.innerHTML = questions[currentquestion].quest;
 // document.getElementById(id).style.property = new style
 
-questions[0].choices.forEach(element => {
+questions[currentquestion].choices.forEach(element => {
   var div = document.createElement("div");
-  div.className = "cells";  
+  div.className = "cells";
   div.textContent = element;
   container.appendChild(div);
 });
 // questions[0].image = {
 
 //url(`questions${currentquest.image}`)";
+*/
+
+let correctans = document.querySelectorAll(".correctbtn");
+console.log(correctans);
+for (var i = 0; i < correctans.length; i++) {
+  correctans[i].addEventListener("click", function(evt) {
+    alert("you got it right");
+  });
+}
+let wrongans = document.getElementsByTagName("button");
