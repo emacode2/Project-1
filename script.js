@@ -105,12 +105,17 @@ questions[currentquestion].choices.forEach(element => {
 //url(`questions${currentquest.image}`)";
 */
 let mytotal = document.getElementById("total");
+console.log(mytotal);
+let totalCorrect = 0;
 
 let correctans = document.querySelectorAll(".correctbtn");
 console.log(correctans);
 for (var i = 0; i < correctans.length; i++) {
   correctans[i].addEventListener("click", function(evt) {
     alert("you got it right");
+    totalCorrect = totalCorrect + 1;
+    mytotal.innerHTML = totalCorrect;
+    console.log(mytotal);
   });
 }
 let wrongans = document.getElementsByTagName("button");
