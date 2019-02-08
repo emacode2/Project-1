@@ -104,6 +104,7 @@ questions[currentquestion].choices.forEach(element => {
 
 //url(`questions${currentquest.image}`)";
 */
+let mytotal = document.getElementById("total");
 
 let correctans = document.querySelectorAll(".correctbtn");
 console.log(correctans);
@@ -113,3 +114,9 @@ for (var i = 0; i < correctans.length; i++) {
   });
 }
 let wrongans = document.getElementsByTagName("button");
+console.log(wrongans);
+for (var i = 0; i < wrongans.length; i++) {
+  wrongans[i].addEventListener("click", function(evt) {
+    alert("Sorry! wrong! Try again!");
+  });
+}
