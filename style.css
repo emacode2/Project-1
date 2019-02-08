@@ -20,55 +20,27 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
-.options {
-  max-width: 200px;
+.container {
+  display: grid;
+  height: 200px;
+  width: 200px;
   margin: 0 auto;
-  margin: 20px;
-  flex-flow: column;
-}
-p {
-  font-size: 40px;
-  text-align: center;
-  color: white;
 }
 .cells {
   border: 2px solid gray;
-  background-color: yellowgreen;
-  margin: 10px;
-  font-size: 40px;
-  flex-flow: columns;
+  flex-flow: row;
 }
-.nextpage {
-  text-align: center;
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
-  color: red;
-  margin-top: 0px;
-}
+
 img {
   width: 200px;
   height: 200px;
   align-items: center;
 }
 p {
-  font-size: 20px;
+  font-size: 30px;
   height: 25px;
   text-align: center;
-  margin: 5px;
-}
-footer {
-  margin-bottom: 0px;
-  height: 20px;
+  margin-top: 150;
+  color: navy;
   text-align: center;
-  padding: 0px;
-  margin-top: 6px;
-}
-.result {
-  text-align: right;
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
-  color: red;
 }
