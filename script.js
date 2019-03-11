@@ -20,3 +20,8 @@ for (let i = 0; i < wrongans.length; i++) {
     alert("Sorry! wrong! Try again!");
   });
 }
+let reset = document.getElementById("reset-btn");
+reset.addEventListener("click", function(evt) {
+  alert("start over");
+  mytotal.innerHTML = "";
+});
