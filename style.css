@@ -1,6 +1,7 @@
 h1 {
   font-size: 60px;
   text-align: center;
+  text-transform: capitalize;
   color: white;
   background-color: navy;
   padding: 10px;
