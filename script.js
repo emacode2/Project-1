@@ -13,7 +13,7 @@ for (let i = 0; i < correctans.length; i++) {
   });
 }
 
-let wrongans = document.querySelectorAll("wrong-btn");
+let wrongans = document.querySelectorAll(".wrong-btn");
 console.log(wrongans);
 for (let i = 0; i < wrongans.length; i++) {
   wrongans[i].addEventListener("click", function(evt) {
